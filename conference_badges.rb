@@ -12,7 +12,7 @@ def batch_badge_creator(speakers)
   badge_messages
 end
 
-def assign_rooms
+def assign_rooms(attendees)
   room=0
   attendees.collect do |name|
    room +=1
