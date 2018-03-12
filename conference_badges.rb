@@ -15,3 +15,4 @@ end
 def assign_rooms
   room=0
   attendees.collect do |name|
+   room +=1
